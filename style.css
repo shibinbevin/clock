@@ -1,0 +1,9 @@
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font: 50px helvetica;
+    margin-top: 40vh;
+}
