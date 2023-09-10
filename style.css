@@ -1,9 +1,14 @@
+body {
+    margin: 0;
+}
 .clock{
+    height: 100dvh;
+    width: 100dvw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .time{
-    font: 50px helvetica;
-    margin-top: 40vh;
+    font: 50px, "Helvetica", sans-serif;
+    margin: 0;
 }
