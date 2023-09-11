@@ -1,14 +1,17 @@
 body {
     margin: 0;
+    background-color: #222;
 }
 .clock{
     height: 100dvh;
     width: 100dvw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.time{
+.datetime{
     font: 50px "Helvetica", sans-serif;
     margin: 0;
+    color: #fff;
 }
